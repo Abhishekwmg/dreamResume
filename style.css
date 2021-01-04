@@ -1,0 +1,152 @@
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+nav{
+    background: white;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .mainMenu{
+    display: flex;
+    list-style: none;
+    padding: 0 5rem;
+}
+
+nav .mainMenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+nav .mainMenu li a:hover{
+    color: grey;
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu, .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover{
+    color: rgb(1, 86, 197);
+}
+
+.fa-twitter:hover{
+    color: rgb(117, 172, 243);
+}
+
+.fa-instagram:hover{
+    color: rgb(214, 26, 26);
+}
+
+.fa-github:hover{
+    color: rgb(197, 96, 1);
+}
+
+nav .logo{
+    padding: 1rem 5rem;
+    cursor: pointer;
+}
+
+nav .logo img{
+    height: 1rem;
+    width: 15rem;
+}
+
+.grid-landing{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-landing .grid-left h1{
+    color: black;
+    font-size: 4rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.grid-landing .grid-right{
+    background: url('./Images/Landing-image.png');
+    background-position: center;
+    background-size: cover;
+    margin: 2rem;
+}
+
+
+/* Media Query */
+
+@media (max-width: 800px){
+    nav .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu{
+        display: block;
+    }
+
+    nav .mainMenu li a:hover{
+        background: none;
+        color:rgb(255, 123, 0);
+        font-size: 1.6rem;
+    }
+
+    .icons i{
+        display: inline-block;
+        padding: 12px;
+    }
+
+}
