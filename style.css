@@ -98,17 +98,17 @@ nav .mainMenu .closeMenu, .icons i{
 }
 
 nav .logo{
-    padding: 0.7rem 5rem;
+    padding: 0.5rem 5rem;
     cursor: pointer;
 }
 
 nav .logo img{
-    height: 3.2rem;
-    width: 6.5rem;
+    height: 3.5rem;
+    width: 7rem;
 }
 
 .grid-landing{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -162,10 +162,20 @@ nav .logo img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 5rem;
+    margin-top: 8rem;
 }
 
+.next-step{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: red;
+}
 
+.next-step .tips h1{
+    padding: 3rem;
+}
 
 /* Media Query */
 
