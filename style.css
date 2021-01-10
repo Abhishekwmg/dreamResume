@@ -63,7 +63,8 @@ nav .mainMenu li a{
     transition: width 0.5s ease-in-out;
 }
 
-.cool-link-two:hover::after{
+
+.cool-link-three:hover::after{
     width: 100%;
     transition: width 0.5s;
 }
@@ -168,14 +169,209 @@ nav .logo img{
 .next-step{
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    background: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.next-step .next-step-abstract{
+    background: url('./Images/abstract4.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.next-step .tips .emoji-color{
+    color: #6C63FF;
 }
 
 .next-step .tips h1{
-    padding: 3rem;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 5rem;
+    font-weight: lighter;
+    padding-top: 5rem;
+    color: rgb(26, 25, 25);
 }
+
+.next-step .tips h2{
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+}
+
+.quote{
+    width: 100%;
+    height: 20vh;
+    background-color: #908bf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote .quote-font{
+    font-size: 3rem;
+}
+
+.quote h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.how-to{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem; 
+    width: 100%;
+    height: 100vh;
+}
+
+.how-to .how-to-text h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 5rem;
+    font-weight: lighter;
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+
+.how-to .how-to-text h2{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    /* text-align: center; */
+}
+
+.how-to .how-to-abstract{
+    background: url('./Images/abstract5.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.how-to .how-to-text .how-to-emoji{
+    color: #6C63FF;
+}
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 4rem;
+    padding-top: 10rem;
+    color: white;
+}
+
+footer .footer-quote-color{
+    color: #6C63FF;
+}
+
+footer h2{
+    margin-bottom: 4rem;
+    color: white;
+    font-weight: bold;
+}
+
+footer h3{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+footer h4{
+    padding-top: 2rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+footer nav{
+    background-color: rgb(20, 19, 19);
+    margin-top: 15rem;
+    padding: 0 3rem;
+}
+
+footer nav .sublinks a{
+    text-decoration: none;
+    color: white;
+    padding: 0.7em;
+    font-size: 0.9rem;
+    transition: color 0.7s ease;
+}
+
+footer nav .tag a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.7s ease;
+}
+
+footer nav .social a{
+    text-decoration: none;
+    color: white;
+    padding: 0.7em;
+    font-size: 0.9rem;
+    transition: color 0.7s ease;
+}
+
+/* #6C63FF */
+
+footer nav .social a:hover,
+footer nav .tag a:hover,
+footer nav .sublinks a:hover{
+    color:#6C63FF; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Query */
 
