@@ -300,12 +300,20 @@ nav .logo img{
     margin: 3rem 15rem;
     cursor: pointer;
     transition: all 0.7s ease;
+}
 
+.grid-landing .grid-left .btn-started a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s ease;
+}
+
+.grid-landing .grid-left .btn-started a:hover{
+    color: white;
 }
 
 .grid-landing .grid-left .btn-started:hover{
     background-color: #6C63FF;
-    color: white;
 }
 
 .grid-landing .grid-left h2{
@@ -350,6 +358,9 @@ nav .logo img{
     color: #6C63FF;
 }
 
+.emoji-color{
+    color: #6C63FF;
+}
 .next-step .tips h1{
     font-family: 'Bodoni Moda', serif;
     font-size: 5rem;
@@ -750,6 +761,193 @@ footer nav .sublinks a:hover{
         background: #6C63FF;
         color: #fff;
     }
+
+    .form-navigation-bar{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        /* background: #6C63FF; */
+    }
+
+    .form-navigation-bar h1{
+        font-size: 2rem;
+        font-family: 'Roboto', serif;
+        font-weight: bold;
+    }
+
+    .form-steps-image{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        /* background: #eee; */
+    }
+
+    .form-steps-image .form-steps-image-detail-one i{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        border: 2px solid #6C63FF;
+        padding-top: 3rem;
+        font-size: 4rem;
+        color: #6C63FF;
+    }
+
+    .form-steps-image .form-steps-image-detail-one h1{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .form-steps-image .form-steps-image-detail-one p{
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+
+    .form-steps-image .form-steps-image-detail-two i{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        border: 2px solid #6C63FF;
+        padding-top: 2.8rem;
+        padding-left: 1rem;
+        font-size: 4rem;
+        color: #6C63FF;
+    }
+
+    .form-steps-image .form-steps-image-detail-two h1{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .form-steps-image .form-steps-image-detail-two p{
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+    
+    .form-steps-image .form-steps-image-detail-three i{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        border: 2px solid #6C63FF;
+        padding-top: 3rem;
+        font-size: 4rem;
+        color: #6C63FF;
+    }
+
+    .form-steps-image .form-steps-image-detail-three h1{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .form-steps-image .form-steps-image-detail-three p{
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+
+    .create-btn{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .create-btn .create-btn-design {
+        height: 3rem;
+        width: 15rem;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #6C63FF;
+        background: transparent;
+        color: black;
+        margin: 1rem 9rem;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        transition: all 0.6s ease;
+    }
+
+    .create-btn .create-btn-design a{
+        text-decoration: none;
+        color: black;
+        transition: all 0.3s ease;
+    }
+
+    .create-btn .create-btn-design a:hover{
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    .create-btn .create-btn-design:hover{
+        background: #6C63FF;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
