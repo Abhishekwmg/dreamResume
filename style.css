@@ -659,9 +659,97 @@ footer nav .sublinks a:hover{
     background: #6C63FF;
 }
 
+/* Contact Page Design */
 
+.contact{
+    width: 100%;
+    height: 15vh;
+    background: #6C63FF;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contact .contact-heading{
+    font-size:4rem;
+    font-family: 'Bodoni Moda', serif;
+    color: rgb(19, 19, 19);
+}
 
+.contact .contact-heading h1{
+    font-weight: lighter;
+}
+
+.contact-form{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+}
+
+.contact-form .grid-abstract{
+    background: url('./Images/abstract-contact.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-form .cont-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* .contact-form .cont-form form{
+    box-sizing: border-box;
+} */
+
+.contact-form .cont-form form input{
+    width: 25rem;
+    height: 2rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #6C63FF;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contact-form .cont-form form textarea{
+    padding: 1rem;
+    margin-top: 1rem;
+    background: rgba(53, 51, 51, 0.164);
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #6C63FF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+    .contact-form .cont-form form .btn-form {
+        height: 3rem;
+        width: 8rem;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #6C63FF;
+        background: transparent;
+        color: black;
+        margin: 1rem 9rem;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        transition: all 0.6s ease;
+    }
+
+    .contact-form .cont-form form .btn-form:hover{
+        background: #6C63FF;
+        color: #fff;
+    }
 
 
 
