@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Resume | Personal Details</title>
+    <link rel="icon" href="./Images/favicon2.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap&family=Raleway:wght@100&family=Roboto:wght@100&display=swap&family=Montserrat:wght@100&display=swap&family=Raleway&display=swap&family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="personalDetails.css">
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="nav-logo">
+            <img src="./Images/Logo-website.png" alt="">
+        </div>
+
+        <div class="status-heading">
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Select Template</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Personal details</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Experience</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Education</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Skills</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Summary</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Download</label>
+            </div>
+        </div>
+        <!-- <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="template.html">Template</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+
+    <section class="form-area-grid-view">
+        <div class="form-area">
+            <div class="heading-experience">
+                <h1>Experience</h1>
+            <p>List your work experience, from the most recent to the oldest. Feel free to use our pre-written examples.
+            </p>
+            </div>
+            
+            <form class="form-control" id="form">
+                <label for="Employer">Employer</label>
+                <input type="text" id="employer" autocomplete="off" placeholder="e.g. Google">
+                <small>Error msg</small>
+                <label for="jobTitle">Job Title</label>
+                <input type="text" id="jtitle" autocomplete="off" placeholder="e.g. Software Engineer">
+                <small>Error msg</small>
+                <label for="jobcity">City</label>
+                <input type="text" id="jobCity" autocomplete="off" placeholder="e.g. San Francisco">
+                <small>Error msg</small>
+                <label for="jobstate">State</label>
+                <input type="number" id="jobState" autocomplete="off" placeholder="e.g California">
+                <small>Error msg</small>
+                <label for="startdate">Start Date</label>
+                <input type="date" name="startdate" id="startDate" autocomplete="off" placeholder="e.g. 21/02/2018">
+                <small>Error Message</small>
+                <label for="enddate">End Date</label>
+                <input type="date" name="enddate" id="endDate" autocomplete="off" placeholder="e.g. 03/07/2020">    
+                <small>Error Message</small>
+                <label for="jobDescription">Job Description</label>
+                <textarea name="" id="jobDescription" rows="10" placeholder="e.g. Describe your job responsibilities and achievements"></textarea>
+
+                <input type="submit" id="submit" value="Save & Next">
+            </form>
+        </div>
+
+
+        <!-- Resume Preview Are -->
+        <div class="resume-preview">
+
+        </div>
+    </section>
+
+
+    
+<script src="formValidation.js"></script>
+</body>
+
+
+</html>

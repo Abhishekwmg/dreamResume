@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Resume | Personal Details</title>
+    <link rel="icon" href="./Images/favicon2.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap&family=Raleway:wght@100&family=Roboto:wght@100&display=swap&family=Montserrat:wght@100&display=swap&family=Raleway&display=swap&family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="personalDetails.css">
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="nav-logo">
+            <img src="./Images/Logo-website.png" alt="">
+        </div>
+
+        <div class="status-heading">
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Select Template</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Personal details</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Experience</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Education</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Skills</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Add Summary</label>
+            </div>
+            <div class="status-icons">
+                <i class="fas fa-check-circle"></i>
+                <label>Download</label>
+            </div>
+        </div>
+        <!-- <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="template.html">Template</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+
+    <section class="form-area-grid-view">
+        <div class="form-area">
+            <div class="heading-experience">
+                <h1>Complete Your Resume Heading</h1>
+            <p>Employers will use this information to contact you.
+            </p>
+            </div>
+            <form class="form-control" id="form">
+                <label for="firstName">First Name</label>
+                <input type="text" id="fname" autocomplete="off" placeholder="e.g. Karen">
+                <small>Error msg</small>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lname" autocomplete="off" placeholder="e.g. Williams">
+                <small>Error msg</small>
+                <label for="address">Address</label>
+                <input type="text" id="address" autocomplete="off" placeholder="e.g. 1-47/6 Peter Street">
+                <small>Error msg</small>
+                <label for="city">City</label>
+                <input type="text" id="city" autocomplete="off" placeholder="e.g. Peters Street">
+                <small>Error msg</small>
+                <label for="zipcode">Zipcode</label>
+                <input type="number" id="zipcode" autocomplete="off" placeholder="e.g. 313245">
+                <small>Error msg</small>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="select">Select</option>
+                    <option value="select">India</option>
+                    <option value="select">Pakistan</option>
+                </select>
+                <label for="email">Email</label>
+                <input type="email  " id="email" autocomplete="off" placeholder="e.g. karenwilliams@xyz.com">
+                <small>Error msg</small>
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" autocomplete="off" placeholder="e.g. 1112223330">
+                <small>Error msg</small>
+                <input type="submit" id="submit" value="Save & Next">
+            </form>
+        </div>
+
+
+        <!-- Resume Preview Are -->
+        <div class="resume-preview">
+
+        </div>
+    </section>
+
+
+    
+<script src="formValidation.js"></script>
+</body>
+
+
+</html>
