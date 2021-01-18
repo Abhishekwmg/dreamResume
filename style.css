@@ -572,25 +572,37 @@ footer nav .sublinks a:hover{
 }
 
 .single-team .team-text h2{
-    padding: 0.8rem 0;
+    padding: 1rem 0;
+}
+
+.single-team .team-text p{
+    margin-bottom: 1rem;
 }
 
 .team-area .single-team .team-text .btn{
-    height: 3rem;
-    width: 8rem;
+    /* height: 5rem;
+    width: 1rem; */
+    width: 5rem;
     outline: none;
     border: 1px solid white;
     background: transparent;
     color: white;
     cursor: pointer;
-    margin: 1rem auto;   
-    font-size: 1.5rem;
-    border-radius: 10px;
+    margin: 5rem auto;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
     transition: all 0.5s ease;
 }
 
 .team-area .single-team .team-text .btn:hover{
     background: #6C63FF;
+}
+
+.team-area .single-team .team-text a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 /* Contact Page Design */
