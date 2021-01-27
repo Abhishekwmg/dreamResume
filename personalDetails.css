@@ -132,6 +132,10 @@ header .status-heading .status-icons label{
   margin: 0; 
 }
 
+.form-area-grid-view .form-area .form-control input[type=select]{
+    Color: red;
+}
+
 .form-area-grid-view .form-area .form-control small{
     color: rgb(212, 65, 46);
     visibility: hidden;
